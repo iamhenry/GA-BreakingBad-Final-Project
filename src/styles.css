@@ -2,16 +2,20 @@
   font-family: sans-serif;
   text-align: center;
   background-image: radial-gradient(49% 100%, #1c593b 34%, #07170f 100%);
-  width: 960px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  /* display: flex;
-  flex-wrap: wrap; */
+  width: 960px;
+  margin: auto;
 }
 
 nav {
-  /* display: flex; */
+  display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;

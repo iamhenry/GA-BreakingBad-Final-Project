@@ -19,7 +19,7 @@ function BBHome() {
   };
 
   return (
-    <div>
+    <>
       <ul>
         {items.map(item => (
           <Link to={`/BBHome/${item.char_id}`}>
@@ -31,7 +31,7 @@ function BBHome() {
           </Link>
         ))}
       </ul>
-    </div>
+    </>
   );
 }
 
