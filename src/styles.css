@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: radial-gradient(49% 100%, #1c593b 34%, #07170f 100%);
+  width: 960px;
+}
+
+.container {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+nav {
+  /* display: flex; */
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #1e1e1e;
+  color: #ffffff;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  color: #fff;
+}
+
+.bbchar {
+  width: 468px;
+  height: 190px;
+  list-style: none;
+  background-color: #fff;
+  box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin: 22px;
+}
+
+.bbchar img {
+  width: 141px;
+  height: 190px;
+  float: left;
+}
+
+.bbchar p {
+  font-family: SFUIDisplay-Black;
+  font-size: 30px;
+  color: #1d2228;
+  font-size: 30px;
+  float: left;
+  padding: 37px 0px 0px 52px;
+  text-decoration: none;
+}
+
+/* .bbchar .metadata {
+font-family: SFUIDisplay-Regular;
+font-size: 16px;
+color: #828C93;
+letter-spacing: 0;
+} */
