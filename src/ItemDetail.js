@@ -28,16 +28,16 @@ function ItemDetails({ match }) {
   };
 
   return (
-    <div>
+    <div className="char-card">
       {item.map(user => (
         <>
           <img src={user.img} alt="" />
           <h1>{user.name}</h1>
-          <p>{user.nickname}</p>
+          <p>Nickname {user.nickname}</p>
           <ul>
-            <li>Status {user.status}</li>
-            <li>Occupation {user.occupation.join(", ")}</li>
-            <li>Seasons {user.appearance.join(", ")}</li>
+            <li><strong>Status</strong> {user.status}</li>
+            <li><strong>Occupation</strong> {user.occupation.join(", ")}</li>
+            <li><strong>Seasons</strong> {user.appearance.join(", ")}</li>
           </ul>
         </>
       ))}

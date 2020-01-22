@@ -1,4 +1,4 @@
-.App {
+body{
   font-family: sans-serif;
   text-align: center;
   background-image: radial-gradient(49% 100%, #1c593b 34%, #07170f 100%);
@@ -21,6 +21,7 @@ nav {
   min-height: 10vh;
   background: #1e1e1e;
   color: #ffffff;
+  margin-bottom: 100px
 }
 
 .nav-links {
@@ -43,6 +44,7 @@ nav ul li {
   box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   margin: 22px;
+  
 }
 
 .bbchar img {
@@ -67,3 +69,38 @@ font-size: 16px;
 color: #828C93;
 letter-spacing: 0;
 } */
+
+.char-card {
+  background: #f9f9f9;
+  box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  width: 797px;
+  height: 412px;
+}
+
+.char-card h1,
+ul, p {
+text-align: left;
+padding-left: 20px;
+}
+
+.char-card h1 {
+  top: 50px;
+}
+
+.char-card li {
+padding-bottom: 16px
+}
+
+.char-card p {
+  margin-bottom: 50px;
+}
+
+.char-card img {
+  float: left;
+  height: 412px;
+}
+
+.char-card li {
+  list-style-type: none;
+}
