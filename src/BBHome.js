@@ -4,6 +4,9 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 
 function BBHome() {
+
+  // const [state, dispatch] = useReducer(reducer, initialState);
+  // TODO: Reducer
   useEffect(() => {
     fetchItems();
   }, []);
@@ -11,7 +14,9 @@ function BBHome() {
   const [items, setItems] = useState([]);
 
   const fetchItems = async () => {
-    const data = await fetch("https://www.breakingbadapi.com/api/characters?limit=9");
+    const data = await fetch(
+      "https://www.breakingbadapi.com/api/characters?limit=9"
+    );
 
     const items = await data.json();
     console.log(items);

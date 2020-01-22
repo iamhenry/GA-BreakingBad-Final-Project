@@ -7,9 +7,6 @@ import Nav from "./Nav";
 import BBHome from "./BBHome";
 import ItemDetail from "./ItemDetail";
 
-// React Router Tutorial | React For Beginners
-// https://www.youtube.com/watch?v=Law7wfdg_ls&t=1139s
-
 function App() {
   return (
     <Router>

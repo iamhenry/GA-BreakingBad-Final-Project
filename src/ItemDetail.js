@@ -36,7 +36,7 @@ function ItemDetails({ match }) {
           </div>
           <div className="card-content">
             <h1>{user.name}</h1>
-            <p>Nickname {user.nickname}</p>
+            <p>Nickname: {user.nickname}</p>
             <ul>
               <li>
                 <strong>Status</strong> {user.status}
